@@ -1,0 +1,105 @@
+<link rel="stylesheet" href="./dist/css/style.css">
+
+
+<div class="row">
+              <div class="calculator_cnt ">
+
+          
+                        <div class="row">
+                              <div class="input_number">
+                                  <div class="input_number_label"><label class="sticker_label" for="input_size_width">Ширина</label></div>
+                                  <div class="input_number_input"> <input type="number" step="1" min="10" max="280" id="input_size_width" placeholder="Введіть розмір ширини у міліметрах"/></div>
+                              </div>
+                              <div class="input_number">
+                                  <div class="input_number_label"><label class="sticker_label" for="input_size_height">Довжина</label></div>
+                                  <div class="input_number_input"><input type="number" step="1" min="10" max="280" id="input_size_height" placeholder="Введіть розмір висоти у міліметрах"/></div>
+                              </div>
+                              <div class="input_range">
+                                <div class="input_range_label"><label  for="sticker_size_input">Радіус: <span id="sticker_size_value">0</span> мм</label></div> 
+                                <div class="input_range_input"><input  type="range" id="sticker_size_input" value="0"/></div> 
+                              </div>
+                        </div>
+
+                        <div class="row">
+                              <div class="input_range">
+                                    <div class="input_range_label"><label for="sticker_quantity_input">Кількість: <span id="sticker_quantity_value">713</span> шт</label></div> 
+                                    <div class="input_range_input"><input type="range" id="sticker_quantity_input" value="1" min="1" max="5000" step="1"/></div> 
+                              </div>
+                        </div>
+
+
+                        <div class="row">
+                          <div class="input_select">
+                              <div class="input_select_label"><label for="sticker_material">Матеріал</label></div> 
+                              <div class="input_select_select">
+                                  <select name="" id="sticker_material">
+                                      <option>Паперова наліпка</option>
+                                      <option>Паперова наліпка з ламінацією</option>
+                                      <option>Вінілова наліпка</option>
+                                  </select>
+                              </div> 
+                          </div>
+
+                          <div class="input_select">
+                              <div class="input_select_label"><label for="sticker_cutting_type">Тип порізки</label></div> 
+                              <div class="input_select_select">
+                                  <select id="sticker_cutting_type">
+                                      <option>Test type 1</option>
+                                      <option>Test type 2</option>
+                                      <option>Test type 3</option>
+                                  </select>
+                              </div> 
+                          </div>
+                      </div>
+                    
+                </div>
+
+                <div class="preview_cnt">
+                  <div class="file_preview_cnt">
+                    <input type="file" id="file_input">
+                    <label for="file_input"><strong>Choose a file</strong><span> or drag it here</span></label>
+                    <div class="file_preview_cnt_input_wraper">
+        
+                          <div class="file_preview_cnt_input_wraper_drop_area_design" id="drag_drop_area">
+        
+                                <div class="file_preview_cnt_input_wraper_drop_area_design_cut">
+        
+                                    <div class="file_preview_cnt_input_wraper_drop_area_design_cut_width_size_cnt">
+                                        <div class="horizontal_arrow">
+                                            <div class="horizontal_arrow_left_arrow"></div>
+                                            <div class="horizontal_arrow_line"></div>
+                                            <div class="horizontal_arrow_text_field">
+                                              <p>90<span> мм</span></p>
+                                            </div>
+                                            <div class="horizontal_arrow_line"></div>
+                                            <div class="horizontal_arrow_right_arrow"></div>
+                                        </div>
+                                    </div>
+                                    <div class="file_preview_cnt_input_wraper_drop_area_design_cut_height_size_cnt">
+                                          <div class="vertical_arrow">
+                                                <div class="vertical_arrow_top_arrow"></div>
+                                                <div class="vertical_arrow_line"></div>
+                                                <div class="vertical_arrow_text_field">
+                                                  <p>50<span> мм</span></p>
+                                                </div>
+                                                <div class="vertical_arrow_line"></div>
+                                                <div class="vertical_arrow_bottom_arrow"></div>
+                                          </div>
+                                    </div>
+                                    <div class="file_preview_cnt_input_wraper_drop_area_design_cut_corner_radius_cnt">
+                                          <div class="corner_radius_arrow">
+                                                <div class="corner_radius_arrow_row"></div>
+                                                <div class="corner_radius_arrow_line"></div>
+                                                <div class="corner_radius_arrow_text_field">
+                                                    <p>5</p>
+                                                </div>
+                                          </div>
+                                    </div>
+                            </div>
+                        </div> 
+                    </div>
+                  </div>
+                </div>
+
+
+            </div>
